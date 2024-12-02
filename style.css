@@ -1,0 +1,70 @@
+* {
+    font-family: "CaskaydiaCove NerdFont Propo";
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Bar {
+    background: none;
+}
+
+.Section {
+    color: #cdd6f4;
+    background: #1e1e2e;
+    border-radius: 2rem;
+}
+
+.Focused {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.Workspaces * {
+    background: none;
+}
+
+.Workspaces .focused {
+    background: #89dceb;
+    color: #1e1e2e;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Time {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.Wifi {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.Audio {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.Battery {
+    color: #1e1e2e;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.Battery.High {
+    background: #a6e3a1;
+}
+.Battery.Medium {
+    background: #f9e2af;
+}
+.Battery.Low {
+    background: #f38ba8;
+}
+
+.Tray * {
+    background: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
